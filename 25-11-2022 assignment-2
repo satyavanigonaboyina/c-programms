@@ -1,0 +1,6 @@
+list=[34,21,2,56,38,90,23]
+min=list[0]
+for i in list:
+    if i<min:
+        min=i
+print(min,'is the minimum number')
