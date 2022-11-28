@@ -1,0 +1,11 @@
+bal=10000
+amount=int(input('Enter amount:'))
+if bal>amount:
+    credit=bal-amount
+else:
+    credit=amount-bal
+total=bal+amount
+print('Balance:',bal)
+print('Amount:',amount)
+print('Credited amount:',credit)
+print('Remaining balance:',total)
